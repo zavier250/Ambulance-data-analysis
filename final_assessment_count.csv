@@ -1,0 +1,115 @@
+,Final Assessment Code,Final Assessment desc,Count
+0,PAIN,Pain,21075
+3,NOPROBDET,No Problem Identified,8581
+14,FRACTURE,Fracture/s,5240
+5,ABRASGRAZ,Abrasion / Graze,4023
+7,FASS_UNKN,Final Assessment Unknown,3623
+1,SOFTISSINJ,Soft Tissue Injury,3176
+6,LACERATION,Laceration,2571
+11,OTHERSPE_1,Other - Specify,2089
+10,BRUISING,Bruising / Haematoma,1982
+15,HEADINJ,Head Injury,1377
+12,HEADACHE,Headache,855
+2,ANXIETY,Anxiety,660
+20,ALTCONSTAT,Altered Conscious State,597
+16,DISLOCATN,Dislocation,559
+28,SPINCRDSSP,Spinal Cord Injury - Suspected,452
+8,UNKNOWNPR,Unknown Problem,408
+24,EMOTDISTR,Emotional Distress,360
+47,DECEASED,Deceased,338
+19,ALCINTOX,Alcohol Intoxication,320
+4,HYPERTENSN,Hypertension,292
+18,POSTLOC,Post Loss of Consciousness,259
+17,STRAIN,Strain / Sprain,184
+35,BURN,Burn/s,158
+39,WOUNDPUNC,Wound / Puncture,146
+32,CONFUSION,Confusion,145
+41,CRDIACARST,Cardiac Arrest,143
+53,SZRCONVU_2,Seizure/s / Convulsion/s,134
+22,HYPOGLYC,Hypoglycaemia,124
+13,DIZZY,Dizzy,122
+26,FAINT,Faint,105
+43,DRUGINTOX,Drug Intoxication,102
+55,NAUSEA,Nausea,102
+27,PNEUMOTHRX,Pneumothorax,100
+49,OPENWND,Open Wound,93
+56,UNCONSC,Unconscious,91
+40,AVULSION,Avulsion,75
+45,PSYCHEP,Psychiatric Episode,60
+36,ARRHYTHMIA,Arrhythmia,59
+21,SWJOINT,Swollen Joint,58
+34,EPISTAXIS,Epistaxis,50
+38,HYPERGLYC,Hyperglycaemia,46
+68,AMPUTATN,Amputation,44
+54,EYEPR,Eye Injury / Problem,41
+9,HYPERVNTLN,Hyperventilation,36
+59,SHORTBRTH,Short of Breath,33
+60,DEPRESSION,Depression,32
+57,HYPOTENSN,Hypotension,30
+30,OVRDOSE,Overdose,29
+44,FLAILCHEST,Flail Chest,25
+58,ASYMPTMTIC,Asymptomatic,23
+52,SOCIALPR,Social Problem,22
+76,SWLIMB,Swollen Limb,19
+77,VOMITING,Vomiting,19
+33,FEBRILE,Febrile,18
+46,TENSIONPNX,Tension Pneumothorax,17
+37,TIA,Transient Ischaemic Attack,17
+48,ABDODISTN,Abdominal Distension,14
+86,COLLAPSE,Collapse,14
+31,WEAKNESS,Weakness,13
+62,VISDISTURB,Visual Disturbance / Loss,12
+82,ACS,Acute Coronary Syndrome,12
+67,STROKE,Stroke,11
+89,ASTHMA,Asthma,11
+94,PANICATACK,Panic Attack,9
+25,MBLTYPROB,Mobility Problem,9
+72,RASH,Rash,9
+51,PALPITATNS,Palpitations,9
+84,COUGH,Cough,8
+29,ANGINA,Angina,8
+106,PIMMERSION,Post Immersion,8
+75,INFECTOTH,Infection - Other / Not Listed,7
+91,CHESTINF,Chest Infection,7
+71,CRAMPS,Cramps,7
+78,EARPR,Ear Problem,6
+23,SPASM,Spasm/s,6
+64,THROATPR,Throat Problem,5
+73,PVBLEED,PV Bleeding,5
+70,HEARNGLOSS,Hearing Loss,5
+97,WOUNDINFCT,Wound Inflammation / Infection,5
+42,TOOTHACHE,Toothache,5
+108,HYPOTHERM,Hypothermia,5
+81,COMMENT,Comment,5
+96,RSPTRCTINF,Respiratory Tract Infection,4
+85,BLISTERS,Blisters,4
+80,DEHYDRATE,Dehydration,4
+79,URINRYTRI,Urinary Tract Infection,4
+66,COPD,Chronic Obstructive Pulmonary Disease,3
+92,VERTIGO,Vertigo,3
+107,HEATSTRS,Heat Stress,3
+98,MIGRAINE,Migraine/s,3
+93,SEPSIS,Sepsis,3
+105,CHILDBIRTH,Childbirth,3
+69,GASTRINTPR,Gastrointestinal Problem,3
+74,PACEMAKRPR,Pacemaker Problem,3
+65,ALLERGREAC,Allergic Reaction,2
+87,HAEMATURIA,Haematuria,2
+61,PRBLEED,PR Bleeding,2
+111,SURGICALEM,Surgical Emphysema,1
+104,INCONTNCEF,Incontinence - Faecal,1
+110,ANAPHYLXIS,Anaphylaxis,1
+109,INTCRNHAEM,Intracranial Haemorrhage,1
+112,RENALFAIL,Renal Failure,1
+50,AAA,Abdominal Aortic Aneurysm,1
+83,INCONTNCEU,Incontinence - Urinary,1
+99,RESPARREST,Respiratory Arrest,1
+103,HEATSTROKE,Heat Stroke,1
+102,ALCREQDET,Alcohol Requesting Detox,1
+101,APO,Acute Pulmonary Oedema,1
+100,AMI,Acute Myocardial Infarction,1
+63,ALCWTHDR,Alcohol Withdrawal,1
+95,PNEUMONIA,Pneumonia,1
+90,IMPDEFPROB,Implantable Defibrillator Problem,1
+88,RENALCC,Renal Calculi / Colic,1
+113,CONSTIPATN,Constipation,1

@@ -1,0 +1,25 @@
+,Response Time Class,Final Assessment Code,Count
+0,10min - 20min,PAIN,6217
+0,10min - 20min,SOFTISSINJ,937
+0,10min - 20min,NOPROBDET,2453
+0,10min - 20min,ABRASGRAZ,1108
+0,10min - 20min,FASS_UNKN,962
+0,10min - 20min,FRACTURE,1593
+0,over 60min,PAIN,390
+0,over 60min,SOFTISSINJ,71
+0,over 60min,NOPROBDET,83
+0,over 60min,ABRASGRAZ,56
+0,over 60min,FASS_UNKN,205
+0,over 60min,FRACTURE,332
+0,20min - 30min,PAIN,1977
+0,20min - 30min,SOFTISSINJ,338
+0,20min - 30min,NOPROBDET,643
+0,20min - 30min,ABRASGRAZ,286
+0,20min - 30min,FASS_UNKN,251
+0,20min - 30min,FRACTURE,628
+0,30min - 60min,PAIN,1733
+0,30min - 60min,SOFTISSINJ,257
+0,30min - 60min,NOPROBDET,455
+0,30min - 60min,ABRASGRAZ,228
+0,30min - 60min,FASS_UNKN,231
+0,30min - 60min,FRACTURE,653
