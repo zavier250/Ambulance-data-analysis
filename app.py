@@ -6,6 +6,7 @@ import numpy as np
 from Kmeans import *
 from distribution import *
 
+# Publish on Git on July.19th, 2020
 
 app = Flask(__name__)
 
