@@ -1,6 +1,13 @@
 import pandas as pd
 
 # Final Assessment
+
+def load_csv(filename):
+    df = pd.read_csv(filename, encoding="ISO-8859-1")
+    df = df.astype(object).where(pd.notnull(df), None)
+    return df
+
+
 def load_pie_data(filename):
     df = pd.read_csv(filename,encoding="ISO-8859-1")
     df = df.head(6)
@@ -15,6 +22,7 @@ def load_pie_data(filename):
 def load_whole_final(filename):
     df = pd.read_csv(filename, encoding="ISO-8859-1")
     return df
+
 
 # Response Time
 def response_time_count(filename):

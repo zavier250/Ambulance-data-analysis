@@ -342,8 +342,12 @@
                     showInLegend: true,
                     legendText: "{indexLabel}",
                     dataPoints: [
-                    {%for code in data['final_assess_count']:%}
-                        { y: {{data['final_assess_count'][code]}}, indexLabel: "{{code}}" },
+                    <!--{%for code in data['final_assess_count']:%}-->
+                        <!--{ y: {{data['final_assess_count'][code]}}, indexLabel: "{{code}}" },-->
+
+                     <!--{%endfor%}-->
+                     {%for i in range(6):%}
+                        { y: {{data['whole_final'][i].Count}}, indexLabel: "{{data['whole_final'][i].FA_Code}}" },
 
                      {%endfor%}
                     ]
@@ -373,8 +377,8 @@
                   legendMarkerType: "none",
                   legendText: "Length of Response Time",
                   dataPoints: [
-                      {%for interval in data['response_count']:%}
-                      {  y: {{data['response_count'][interval]}}, label: "{{interval}}" },
+                      {%for tuple in data['response_count']:%}
+                      {  y: {{tuple.Count}}, label: "{{tuple.Class}}" },
                       {%endfor%}
                   ]
                 }
@@ -477,11 +481,11 @@
                             <th>Count</th>
                           </thead>
                           <tbody>
-                            {%for i in range(data['whole_final'].shape[0])%}
+                            {%for i in data['whole_final']%}
                               <tr>
-                                <td>{{data['whole_final']['Final Assessment Code'][i]}}</td>
-                                <td>{{data['whole_final']['Final Assessment desc'][i]}}</td>
-                                <td>{{data['whole_final']['Count'][i]}}</td>
+                                <td>{{i.FA_Code}}</td>
+                                <td>{{i.FA_desc}}</td>
+                                <td>{{i.Count}}</td>
                               </tr>
                             {%endfor%}
                           </tbody>
@@ -639,8 +643,10 @@
             accessToken: 'pk.eyJ1IjoiemF2aWVyeHUyNTAiLCJhIjoiY2s5aWhhaWhqMDFwZzNscm5wbDVocDF1MSJ9.XKg6uk1i9ywwIg-SfQ5q4g'
         }).addTo(mymap2);
         {%for coordinate in data['centroid_count']:%}
-            var marker = L.marker([{{coordinate[0]}}, {{coordinate[1]}}]).addTo(mymap2);
-            marker.bindPopup("{{coordinate[2]}}").openPopup();
+        {%  if coordinate.Lat!=None and coordinate.Lon!=None:%}
+            var marker = L.marker([{{coordinate.Lat}}, {{coordinate.Lon}}]).addTo(mymap2);
+            marker.bindPopup("{{coordinate.Count}}").openPopup();
+        {%endif%}
         {%endfor%}
 
 
