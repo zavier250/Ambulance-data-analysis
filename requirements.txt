@@ -4,4 +4,3 @@ flask-migrate
 mysql-connector-python
 gunicorn
 python-dotenv
-heroku
